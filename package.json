@@ -1,0 +1,34 @@
+{
+    "name": "scrapingv3",
+    "version": "1.0.0",
+    "description": "No leaks",
+    "type": "module",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "async-request": "^1.2.0",
+        "axios": "^1.3.6",
+        "better-https-proxy-agent": "^1.0.9",
+        "cheerio": "^1.0.0-rc.12",
+        "chromium": "^3.0.3",
+        "cors": "^2.8.5",
+        "excel4node": "^1.8.0",
+        "express": "^4.18.2",
+        "https-proxy-agent": "^5.0.1",
+        "moment": "^2.29.4",
+        "node-fetch": "^3.3.1",
+        "puppeteer": "^19.11.1",
+        "puppeteer-extra": "^3.3.6",
+        "puppeteer-extra-plugin-recaptcha": "^3.6.8",
+        "puppeteer-extra-plugin-stealth": "^2.11.2",
+        "random-useragent": "^0.5.0",
+        "request": "^2.88.2",
+        "tesseract.js": "^4.0.3",
+        "text-from-image": "^1.1.1"
+    },
+    "author": "",
+    "license": "ISC"
+}
